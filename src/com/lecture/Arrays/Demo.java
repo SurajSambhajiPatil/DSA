@@ -23,10 +23,10 @@ public class Demo {
 
 	int arr[]= {12,9,-2,21,65,32,-34};
 	
-	System.out.println(arr.length);
-	 for(int i=0; i<arr.length;i++) {
-		  System.out.print(arr[i]+" ");
-	  }
+//	System.out.println(arr.length);
+//	 for(int i=0; i<arr.length;i++) {
+//		  System.out.print(arr[i]+" ");
+//	  }
 	 
 	 System.out.println("");
 	 
@@ -49,8 +49,8 @@ public class Demo {
      int a=5,b=5;
      int arr2[]= {1,2,3};
      int arr3[]= {1,2,3};
-     System.out.println(arr2.hashCode());
-     System.out.println(arr3.hashCode());
+     System.out.println("hashcode of arr2 : "+arr2.hashCode());
+     System.out.println("hashcode of arr3 : "+arr3.hashCode());
 
      System.out.println(a==b);
      //to Compare two arrays memory location
