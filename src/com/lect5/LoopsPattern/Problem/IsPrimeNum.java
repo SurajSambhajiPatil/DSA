@@ -12,7 +12,7 @@ public class IsPrimeNum {
 		
 		while (num %2 ==0) 
 			num/=2;
-			
+			System.out.println(num);
 			if(num == 1)
 				System.out.println(true);
 			else

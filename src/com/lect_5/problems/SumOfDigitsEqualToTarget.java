@@ -21,7 +21,7 @@ public class SumOfDigitsEqualToTarget {
 		//Calculate the digit sum for curSum
 		int curSum=0;
 		for(int num = curNum; num>0; num/=10 ) 
-			curSum += ( num%10);
+			curSum += (num%10);
 		
 			if(curSum == targetSum) {
 				System.out.println(curNum);

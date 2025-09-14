@@ -8,11 +8,9 @@ public class SumOfDigitsBtRange {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter first num :");
 		int r = sc.nextInt();
-		System.out.println("Enter balue of K num :");
+		System.out.println("Enter value of K num :");
 		int k = sc.nextInt();
-		
-
-	
+			
 		// Iterating over all the values over l
 		for (int n = 1; n <= r; ++n) {
             int sum = 0;
@@ -22,7 +20,7 @@ public class SumOfDigitsBtRange {
                int  rem = num%10;
                  sum+=rem; 
 			}
-			if(sum == k)
+			//if(sum == k)
            System.out.println(n +"     "+sum);
 		}
 		sc.close();

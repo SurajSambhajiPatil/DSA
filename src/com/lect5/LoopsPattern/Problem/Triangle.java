@@ -27,5 +27,5 @@ public class Triangle {
 			    num_stars += 2;
 		}		
 	}
-
+ 
 }

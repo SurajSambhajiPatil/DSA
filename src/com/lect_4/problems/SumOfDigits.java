@@ -15,11 +15,11 @@ public class SumOfDigits {
 			rem = n % 10;
 			n = n / 10;
 			sum += rem;
-			System.out.println("rem :" + rem);
+			//System.out.println("rem :" + rem);
 		}
 		System.out.println("Sum of Digits :" + sum);
 		
-		sc.close();
+		sc.close(); 
 	}
 
 }
